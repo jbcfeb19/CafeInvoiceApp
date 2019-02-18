@@ -1,0 +1,6 @@
+
+Different ways of formatting numbers
+--------------------------------------
+System.out.printf("Sales Tax: %.3f%n", totalTax);
+System.out.format("%.3f%n", totalTax);
+System.out.println("Sales Tax: $" + String.format("%.02f", totalTax));
